@@ -585,7 +585,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.praveet.DriveVerseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praveetgupta.DriveVerseTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveVerse.app/DriveVerse";
@@ -603,7 +603,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.praveet.driveverse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praveetgupta.driveverse;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -618,7 +618,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.praveet.driveverse.widgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praveetgupta.driveverse.widgets;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -696,7 +696,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.praveet.DriveVerseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praveetgupta.DriveVerseTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveVerse.app/DriveVerse";
@@ -714,7 +714,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.praveet.driveverse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praveetgupta.driveverse;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -729,7 +729,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.praveet.driveverse.widgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praveetgupta.driveverse.widgets;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

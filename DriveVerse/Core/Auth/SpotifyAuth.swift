@@ -74,7 +74,7 @@ final class InMemoryTokenStore: TokenStore {
 }
 
 final class KeychainTokenStore: TokenStore {
-    private let service = "com.praveet.driveverse.spotify"
+    private let service = "com.praveetgupta.driveverse.spotify"
     private let account = "token"
 
     private var baseQuery: [String: Any] {

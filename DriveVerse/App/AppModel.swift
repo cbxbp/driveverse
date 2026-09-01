@@ -27,7 +27,7 @@ final class AppModel: ObservableObject {
     static let pollIntervalKey = "spotifyPollInterval"
     static let sourcePinKey = "sourcePin"
 
-    private static let log = Logger(subsystem: "com.praveet.driveverse", category: "pipeline")
+    private static let log = Logger(subsystem: "com.praveetgupta.driveverse", category: "pipeline")
 
     // MARK: UI state
 
