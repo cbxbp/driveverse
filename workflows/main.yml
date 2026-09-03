@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build unsigned archive
+      - name: Build
         run: |
           xcodebuild archive \
             -project DriveVerse.xcodeproj \
@@ -34,4 +34,3 @@ jobs:
         with:
           name: DriveVerse-IPA
           path: DriveVerse.ipa
-          retention-days: 7
