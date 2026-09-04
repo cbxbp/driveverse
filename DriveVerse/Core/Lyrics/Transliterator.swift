@@ -7,10 +7,12 @@ import Foundation
 /// (and accents the artist chose, like "Motörhead") are never mangled.
 enum Transliterator {
     static func latinized(_ text: String) -> String {
-        guard needsLatinization(text) else { return text }
-        let latin = text.applyingTransform(.toLatin, reverse: false) ?? text
-        return latin.applyingTransform(.stripDiacritics, reverse: false) ?? latin
-    }
+    guard needsLatinization(text) else { return text }
+
+    let latin = text.applyingTransform(.toLatin, reverse: false) ?? text
+
+    return latin.applyingTransform(.stripDiacritics, reverse: false) ?? latin
+}
 
     /// True when the text contains characters from a non-Latin script.
     static func needsLatinization(_ text: String) -> Bool {
